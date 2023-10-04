@@ -1,0 +1,35 @@
+{
+  "name": "node_ts_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.3.3",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.17.4",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.2.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@biconomy/account": "^3.1.0",
+    "@biconomy/bundler": "^3.1.0",
+    "@biconomy/common": "^3.1.0",
+    "@biconomy/core-types": "^3.1.0",
+    "@biconomy/modules": "^3.1.0",
+    "@biconomy/paymaster": "^3.1.0",
+    "chalk": "^5.3.0",
+    "ethers": "5.7.2",
+    "inquirer": "^9.2.11",
+    "tsc": "^2.0.4"
+  }
+}
